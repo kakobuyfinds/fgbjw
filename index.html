@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#123c32">
+<title>HipoBuy spreadsheet | CAFANS Finds, Prices & Buying Guide</title>
+<meta name="description" content="Explore a HipoBuy spreadsheet guide with real CAFANS product finds, searchable categories, indicative USD prices, a CSV download and practical QC checks.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HipoBuy spreadsheet | Browse, Compare, Plan">
+<meta property="og:description" content="A focused CAFANS product selection with searchable prices, a downloadable list and a clear buying checklist.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#f5f6f0;--ink:#183c33;--muted:#64756c;--line:#dce3d8;--green:#164c3b;--lime:#d4ed9b;--white:#fff;--radius:20px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #91b858;outline-offset:4px}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.skip{position:absolute;left:12px;top:-100px;background:white;padding:12px;z-index:10}.skip:focus{top:10px}
+header{border-bottom:1px solid var(--line);background:#f5f6f0f5}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:84px}.brand{text-decoration:none;font-size:20px;font-weight:850;letter-spacing:-1px}.brand span{background:var(--green);color:var(--lime);border-radius:10px;padding:8px 12px;margin-right:9px}.navlinks{display:flex;gap:25px;font-size:14px}.navlinks a{text-decoration:none}.navlinks a:hover{text-decoration:underline}
+.hero{text-align:center;padding:80px 0 55px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(42px,7vw,80px);line-height:1.05;letter-spacing:-4px;margin:22px 0}h1 span{display:block;color:#5b795c}h2{font-size:clamp(27px,4vw,39px);line-height:1.2;letter-spacing:-1.2px;margin:8px 0 16px}h3{font-size:19px;line-height:1.35;margin:0 0 12px}p{margin:0 0 16px}.intro{max-width:710px;margin:0 auto 25px;font-size:18px;color:var(--muted)}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 23px;border:1px solid var(--green);border-radius:50px;text-decoration:none;font-weight:750;cursor:pointer;background:var(--green);color:white}.btn.alt{background:transparent;color:var(--green)}.btn:hover{filter:brightness(1.12)}.micro{font-size:13px;color:var(--muted);margin-top:20px}.pills{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:26px}.pills span{background:#e9eee1;border-radius:30px;padding:5px 13px;font-size:12px}
+.banner{background:var(--green);color:white;border-radius:var(--radius);padding:28px 32px;display:flex;gap:35px;align-items:center;justify-content:space-between}.banner p{margin:0;color:#dce8d9;max-width:700px}.banner strong{display:block;font-size:20px;margin-bottom:5px}.banner .count{font-size:48px;color:var(--lime);line-height:1;font-weight:800}.banner small{display:block;font-size:12px;color:#dce8d9;white-space:nowrap;margin-top:8px}
+section{padding:50px 0}.sectiontop{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:20px}.sectiontop p{max-width:690px;color:var(--muted)}.tools{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:22px 0 14px}label{display:block;font-size:12px;font-weight:750}input,select{width:100%;padding:12px 14px;border:1px solid #ccd7c7;border-radius:10px;background:white;color:var(--ink);margin-top:6px}.tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:15px;background:white}table{width:100%;border-collapse:collapse;min-width:650px;text-align:left}caption{text-align:left;padding:16px 20px;font-size:13px;color:var(--muted);background:#edf2e8}th{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);background:#f8faf5}th,td{padding:16px 20px;border-bottom:1px solid #e8ede4}tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fafcf6}td:first-child{font-weight:650}td a{text-underline-offset:4px}.tag{font-size:12px;background:#edf2e8;border-radius:20px;padding:5px 10px;white-space:nowrap}.price{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:750}.small-link{font-size:13px;white-space:nowrap}.catalog-bottom{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:15px}.catalog-bottom p{margin:0;font-size:13px;color:var(--muted)}#empty{padding:25px;text-align:center}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:var(--radius);padding:25px;background:white}.card p{color:var(--muted);font-size:15px}.num{display:block;font-size:12px;color:#708b57;font-weight:800;margin-bottom:18px;letter-spacing:1px}.guide{background:#e9eee1}.checklist{padding-left:20px;color:var(--muted)}.checklist li{margin:9px 0}.cost{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}.costfields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.costpanel{background:var(--green);color:white;padding:28px;border-radius:var(--radius)}.costpanel label{color:#dce8d9}.costpanel output{display:block;font-size:40px;font-weight:800;color:var(--lime);margin-top:20px}.costpanel small{color:#dce8d9}.faq{max-width:900px;margin:auto}details{border-bottom:1px solid var(--line);padding:20px 0}summary{font-size:17px;font-weight:700;cursor:pointer}details p{padding-top:14px;max-width:800px;color:var(--muted)}.finalcta{text-align:center;background:var(--lime);border-radius:var(--radius);padding:40px 22px}.finalcta p{max-width:660px;margin:0 auto 20px}footer{padding:30px 0 40px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}footer p{max-width:900px}footer a{font-weight:700}noscript p{padding:12px;background:#fff4d5}
+@media(max-width:760px){.wrap{width:calc(100% - 28px)}.nav{min-height:72px}.navlinks{gap:13px;font-size:12px}.brand{font-size:16px}.brand span{margin-right:5px;padding:6px 9px}.hero{padding:55px 0 35px}h1{letter-spacing:-2px}.intro{font-size:16px}.banner{padding:23px;gap:20px}.banner strong{font-size:18px}.sectiontop{display:block}.tools{grid-template-columns:1fr 1fr}.tools>label:first-child{grid-column:1/-1}.grid,.cost{grid-template-columns:1fr}.catalog-bottom{align-items:start;flex-direction:column}section{padding:35px 0}.navlinks a:last-child{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"HipoBuy spreadsheet | CAFANS Finds, Prices & Buying Guide",
+  "description":"An independent product discovery guide with a CAFANS catalog selection, indicative prices and shopping checklists.",
+  "inLanguage":"en",
+  "mainEntity":{
+    "@type":"ItemList",
+    "name":"CAFANS featured product selection",
+    "numberOfItems":12,
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Leather Slides"},
+      {"@type":"ListItem","position":2,"name":"Platform Slides"},
+      {"@type":"ListItem","position":3,"name":"Heels"},
+      {"@type":"ListItem","position":4,"name":"Sweatshirt"},
+      {"@type":"ListItem","position":5,"name":"Thug Club - Rock Hoodie"},
+      {"@type":"ListItem","position":6,"name":"Corteiz Hoodie"},
+      {"@type":"ListItem","position":7,"name":"Kanye West Yeezy Bully Black Short Sleeve T-Shirt"},
+      {"@type":"ListItem","position":8,"name":"Unisex Embroidered Oversized T-Shirt"},
+      {"@type":"ListItem","position":9,"name":"Unisex T-Shirt"},
+      {"@type":"ListItem","position":10,"name":"Corteiz Jacket"},
+      {"@type":"ListItem","position":11,"name":"Jacket"},
+      {"@type":"ListItem","position":12,"name":"Jacket - 0608260"}
+    ]
+  }
+}
+</script>
+<!--
+文件名：index.html
+检索参考页面：
+https://hipo-buy.com/
+https://www.ssfinds.com/hipobuy-spreadsheet
+https://hipospreadsheets.com/
+https://repsheet.net/spreadsheet/hipobuy
+搜索工具结果不等于已验证的 Google 个性化首页排名。
+本页采用可抓取的静态目录、明确的价格来源、分类筛选、CSV 导出及购买前检查，避免虚构数量、评价和 QC 状态。
+商品名称和 USD 参考价格来自 https://cafans.com/ 首页 Featured Product Finds。
+这是有限目录快照，并非 CAFANS 全库实时同步。
+
+收录状态：未提交。当前没有本页的正式上线网址及 Google Search Console / Bing Webmaster Tools 授权。
+上线后：为本页配置正式 URL 的自引用 canonical；在对应站点的 sitemap.xml 中加入正式 URL；
+通过已验证的 Google Search Console 和 Bing Webmaster Tools 提交 sitemap 并请求检查 URL。
+不要将 canonical 指向 CAFANS；不要把文件本地路径当作 canonical。
+本 HTML 不会自动验证站点、提交收录或保证排名。
+-->
+<link rel="canonical" href="https://kakobuyfinds.github.io/fgbjw/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://cafans.com"><span>C</span> THE FINDS EDIT</a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#catalog">Product list</a>
+      <a href="#guide">How to buy</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Independent discovery · CAFANS catalog selection</div>
+      <h1>HipoBuy spreadsheet<span>Find your next shortlist.</span></h1>
+      <p class="intro">Browse real CAFANS product entries, filter by category and compare indicative prices. Use this independent guide to organize your finds before checking the current listing and buying options.</p>
+      <div class="actions">
+        <a class="btn" href="https://cafans.com">HipoBuy spreadsheet <span aria-hidden="true">&nbsp;↗</span></a>
+        <a class="btn alt" href="https://cafans.com">Buy it now <span aria-hidden="true">&nbsp;↗</span></a>
+      </div>
+      <p class="micro">Both buttons open CAFANS. Select a product there, then review its available shopping agents.</p>
+      <div class="pills"><span>Searchable product list</span><span>Indicative USD prices</span><span>Downloadable CSV</span><span>No account needed here</span></div>
+    </section>
+    <aside class="banner" aria-label="Catalog scope">
+      <div><strong>A small selection with a clear source.</strong><p>These are product entries from the CAFANS featured catalog. Prices are reference amounts; availability, variants and agent support require confirmation on the destination page.</p></div>
+      <div><div class="count">12</div><small>imported entries</small></div>
+    </aside>
+    <section id="catalog" aria-labelledby="catalog-title">
+      <div class="sectiontop">
+        <div><div class="eyebrow">The product directory</div><h2 id="catalog-title">Browse the CAFANS selection</h2><p>A compact starting point for HipoBuy spreadsheet research. Filter locally, save the list, then use CAFANS to continue browsing.</p></div>
+        <a class="btn alt" href="https://cafans.com">Explore full catalog ↗</a>
+      </div>
+      <div class="tools">
+        <label for="search">Search product names<input id="search" type="search" placeholder="Try hoodie, slides or jacket…" autocomplete="off"></label>
+        <label for="category">Category<select id="category"><option value="all">All categories</option><option value="Shoes">Shoes</option><option value="Hoodies / Sweaters">Hoodies / Sweaters</option><option value="T-Shirts">T-Shirts</option><option value="Jackets">Jackets</option></select></label>
+        <label for="sort">Sort by<select id="sort"><option value="original">Catalog order</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Product name</option></select></label>
+      </div>
+      <div class="tablebox">
+        <table id="products">
+          <caption>Source: CAFANS homepage featured selection. Indicative USD amounts exclude shipping and additional charges.</caption>
+          <thead><tr><th scope="col">Product</th><th scope="col">Category</th><th scope="col">Est. USD</th><th scope="col">Browse</th></tr></thead>
+          <tbody>
+            <tr data-category="Shoes" data-price="62.36"><td>Leather Slides</td><td><span class="tag">Shoes</span></td><td class="price">$62.36</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Shoes" data-price="46.67"><td>Platform Slides</td><td><span class="tag">Shoes</span></td><td class="price">$46.67</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Shoes" data-price="66.50"><td>Heels</td><td><span class="tag">Shoes</span></td><td class="price">$66.50</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Hoodies / Sweaters" data-price="27.50"><td>Sweatshirt</td><td><span class="tag">Hoodies / Sweaters</span></td><td class="price">$27.50</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Hoodies / Sweaters" data-price="37.22"><td>Thug Club - Rock Hoodie</td><td><span class="tag">Hoodies / Sweaters</span></td><td class="price">$37.22</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Hoodies / Sweaters" data-price="27.50"><td>Corteiz Hoodie</td><td><span class="tag">Hoodies / Sweaters</span></td><td class="price">$27.50</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="T-Shirts" data-price="22.92"><td>Kanye West Yeezy Bully Black Short Sleeve T-Shirt</td><td><span class="tag">T-Shirts</span></td><td class="price">$22.92</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="T-Shirts" data-price="32.64"><td>Unisex Embroidered Oversized T-Shirt</td><td><span class="tag">T-Shirts</span></td><td class="price">$32.64</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="T-Shirts" data-price="29.72"><td>Unisex T-Shirt</td><td><span class="tag">T-Shirts</span></td><td class="price">$29.72</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Jackets" data-price="42.78"><td>Corteiz Jacket</td><td><span class="tag">Jackets</span></td><td class="price">$42.78</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Jackets" data-price="84.54"><td>Jacket</td><td><span class="tag">Jackets</span></td><td class="price">$84.54</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+            <tr data-category="Jackets" data-price="27.50"><td>Jacket - 0608260</td><td><span class="tag">Jackets</span></td><td class="price">$27.50</td><td><a class="small-link" href="https://cafans.com">Open CAFANS ↗</a></td></tr>
+          </tbody>
+        </table>
+        <p id="empty" hidden>No matching products. Try another name or category.</p>
+      </div>
+      <div class="catalog-bottom"><p id="count" role="status" aria-live="polite">Showing 12 of 12 entries · This is a static selection, not a live inventory feed.</p><button class="btn alt" id="download" type="button">Download filtered CSV ↓</button></div>
+      <noscript><p>The full catalog remains available above. Filtering, CSV export and the calculator require JavaScript.</p></noscript>
+    </section>
+  </div>
+  <div class="guide">
+    <section class="wrap" id="guide">
+      <div class="eyebrow">From discovery to decision</div>
+      <h2>How to use this HipoBuy spreadsheet</h2>
+      <p>Start with a product shortlist, then confirm the exact item and purchase conditions before paying.</p>
+      <div class="grid">
+        <article class="card"><span class="num">01 / DISCOVER</span><h3>Choose a specific variant</h3><p>Search the directory and find the corresponding product on CAFANS. Record the color, size and model you want. Similar names can describe different products.</p></article>
+        <article class="card"><span class="num">02 / VERIFY</span><h3>Check the buying destination</h3><p>Review the product detail page and its available platforms. If you choose HipoBuy, confirm that the destination shows the intended seller, variant and current price.</p></article>
+        <article class="card"><span class="num">03 / REVIEW</span><h3>Inspect before dispatch</h3><p>Where warehouse inspection is offered, examine your own order photos and request missing measurements. Check the available return options before approving international shipment.</p></article>
+      </div>
+    </section>
+  </div>
+  <div class="wrap">
+    <section>
+      <div class="cost">
+        <div>
+          <div class="eyebrow">Budget beyond the product price</div>
+          <h2>Plan the known costs</h2>
+          <p>A spreadsheet price is one part of your budget. Enter your own quotes in USD to calculate a planning subtotal.</p>
+          <ul class="checklist">
+            <li>Use the price for your selected size, color and quantity.</li>
+            <li>Keep domestic delivery, agent charges and international shipping separate.</li>
+            <li>Check whether tax or import charges are included in a quote.</li>
+            <li>Treat an unknown charge as unresolved; a blank field does not mean free.</li>
+          </ul>
+          <p class="micro">This tool adds entered amounts only. It does not retrieve exchange rates, shipping quotes or taxes.</p>
+        </div>
+        <form class="costpanel" id="budget" onsubmit="return false">
+          <h3>Your planning subtotal · USD</h3>
+          <div class="costfields">
+            <label for="itemcost">Products<input id="itemcost" inputmode="decimal" type="number" min="0" step="0.01" placeholder="Enter amount"></label>
+            <label for="domestic">Domestic delivery<input id="domestic" inputmode="decimal" type="number" min="0" step="0.01" placeholder="Enter quote"></label>
+            <label for="fees">Agent / payment fees<input id="fees" inputmode="decimal" type="number" min="0" step="0.01" placeholder="Enter quote"></label>
+            <label for="shipping">International shipping<input id="shipping" inputmode="decimal" type="number" min="0" step="0.01" placeholder="Enter quote"></label>
+            <label for="tax">Tax / import charges<input id="tax" inputmode="decimal" type="number" min="0" step="0.01" placeholder="Enter estimate"></label>
+          </div>
+          <output id="total" for="itemcost domestic fees shipping tax" aria-live="polite">$0.00</output>
+          <small id="budgetnote">5 cost fields unfilled. The subtotal is incomplete.</small>
+        </form>
+      </div>
+    </section>
+    <section aria-labelledby="checks-title">
+      <div class="eyebrow">Useful evidence to save</div>
+      <h2 id="checks-title">Make your shortlist easier to compare</h2>
+      <div class="grid">
+        <article class="card"><h3>Fit and measurements</h3><p>For tops, compare chest width, body length and sleeves with a garment you own. For footwear, check the listing’s measurement method and sizing system. Save units alongside every measurement.</p></article>
+        <article class="card"><h3>QC and product details</h3><p>Save the exact listing and option beside inspection photos. Check visible condition, dimensions and included pieces. Photos of another order may help research, but do not confirm what your order will contain.</p></article>
+        <article class="card"><h3>Availability and dates</h3><p>Record when you last checked the price and stock. If a link changes or a seller replaces a listing, verify the new product before reusing your old notes. Keep unanswered questions visible.</p></article>
+      </div>
+    </section>
+    <section id="faq" class="faq" aria-labelledby="faq-title">
+      <div class="eyebrow">Before you order</div>
+      <h2 id="faq-title">HipoBuy spreadsheet FAQ</h2>
+      <details open><summary>What is a HipoBuy spreadsheet?</summary><p>It is a product discovery list used to organize items for research and possible ordering through HipoBuy. This page provides an independent guide and a small CAFANS catalog selection, with local search, category filters and a CSV export.</p></details>
+      <details><summary>Is this the official HipoBuy website?</summary><p>No. This page is an independent discovery resource. Its HipoBuy spreadsheet and Buy it now buttons open CAFANS, where you can browse products and review the buying platforms available for an item.</p></details>
+      <details><summary>Are these real CAFANS products?</summary><p>The 12 names and indicative USD prices were taken from the CAFANS homepage featured selection. This page is a static snapshot rather than a full catalog synchronization. Check CAFANS for the current product listing and available options.</p></details>
+      <details><summary>Why can the final price differ?</summary><p>The selected variant, seller price, currency conversion and additional charges can change the amount payable. Shipping and other fees are excluded from the reference prices shown here. Use the current destination quote when making a decision.</p></details>
+      <details><summary>Does every product have verified QC photos?</summary><p>No QC verification is claimed for this selection. Check whether inspection photos are available for the specific listing and your own order. Photographs alone do not establish authenticity, long-term durability or product safety.</p></details>
+      <details><summary>Can I download this product list?</summary><p>Yes. Use Download filtered CSV to export the currently visible entries, including their categories, indicative USD prices and CAFANS browsing destination. The export is a research snapshot, not a checkout quote.</p></details>
+      <details><summary>Can I order or pay on this page?</summary><p>No. This page provides discovery and planning tools. Open CAFANS, locate the product and review its buying options. Confirm the seller details, applicable charges and purchase conditions at the destination before paying.</p></details>
+    </section>
+    <section>
+      <div class="finalcta"><div class="eyebrow">Ready for a closer look?</div><h2>Turn a shortlist into informed choices.</h2><p>Continue to CAFANS for the broader catalog and product buying options.</p><div class="actions"><a class="btn" href="https://cafans.com">HipoBuy spreadsheet ↗</a><a class="btn alt" href="https://cafans.com">Buy it now ↗</a></div></div>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>THE FINDS EDIT · Independent HipoBuy spreadsheet guide</strong></p>
+    <p>Catalog source: <a href="https://cafans.com">CAFANS</a>. Product names belong to their respective owners. This page does not sell products and is not an official HipoBuy service. Listings, stock, prices and buying terms are controlled by their respective providers.</p>
+  </div>
+</footer>
+<script>
+(function(){
+  "use strict";
+  const body=document.querySelector("#products tbody");
+  const rows=Array.from(body.rows);
+  const search=document.getElementById("search");
+  const category=document.getElementById("category");
+  const sort=document.getElementById("sort");
+  const count=document.getElementById("count");
+  const empty=document.getElementById("empty");
+  const download=document.getElementById("download");
+  rows.forEach((row,index)=>row.dataset.index=String(index));
+  function update(){
+    const query=search.value.trim().toLocaleLowerCase();
+    const ordered=rows.slice().sort((a,b)=>{
+      if(sort.value==="low")return Number(a.dataset.price)-Number(b.dataset.price);
+      if(sort.value==="high")return Number(b.dataset.price)-Number(a.dataset.price);
+      if(sort.value==="name")return a.cells[0].textContent.localeCompare(b.cells[0].textContent);
+      return Number(a.dataset.index)-Number(b.dataset.index);
+    });
+    let visible=0;
+    ordered.forEach(row=>{
+      row.hidden=!(row.cells[0].textContent.toLocaleLowerCase().includes(query)&&(category.value==="all"||row.dataset.category===category.value));
+      if(!row.hidden)visible++;
+      body.appendChild(row);
+    });
+    empty.hidden=visible!==0;
+    count.textContent="Showing "+visible+" of "+rows.length+" entries · Static selection, not a live inventory feed.";
+    download.disabled=visible===0;
+  }
+  search.addEventListener("input",update);
+  category.addEventListener("change",update);
+  sort.addEventListener("change",update);
+  function csvCell(value){
+    let text=String(value);
+    if(/^[=+\-@\t\r]/.test(text))text="'"+text;
+    return '"'+text.replace(/"/g,'""')+'"';
+  }
+  download.addEventListener("click",()=>{
+    const data=[["Product","Category","Indicative USD","Browsing destination","Price status"]];
+    Array.from(body.rows).filter(row=>!row.hidden).forEach(row=>data.push([
+      row.cells[0].textContent.trim(),row.dataset.category,Number(row.dataset.price).toFixed(2),
+      "https://cafans.com","Static CAFANS reference; excludes additional charges"
+    ]));
+    const blob=new Blob(["\uFEFF"+data.map(row=>row.map(csvCell).join(",")).join("\r\n")],{type:"text/csv;charset=utf-8"});
+    const url=URL.createObjectURL(blob);
+    const link=document.createElement("a");
+    link.href=url;link.download="hipobuy-spreadsheet-cafans.csv";
+    document.body.appendChild(link);link.click();link.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),2000);
+  });
+  const fields=Array.from(document.querySelectorAll("#budget input"));
+  function budget(){
+    let total=0,missing=0;
+    fields.forEach(field=>{
+      if(field.value===""||!field.validity.valid){missing++;return;}
+      total+=Number(field.value);
+    });
+    document.getElementById("total").textContent=total.toLocaleString("en-US",{style:"currency",currency:"USD"});
+    document.getElementById("budgetnote").textContent=missing
+      ?missing+" cost field"+(missing===1?"":"s")+" unfilled or invalid. The subtotal is incomplete."
+      :"All fields entered. Planning subtotal only; confirm every amount before payment.";
+  }
+  fields.forEach(field=>field.addEventListener("input",budget));
+})();
+</script>
+</body>
+</html>
